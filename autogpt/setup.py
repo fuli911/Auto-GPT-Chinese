@@ -15,14 +15,14 @@ def prompt_user() -> AIConfig:
     ai_name = ""
     # Construct the prompt
     logger.typewriter_log(
-        "欢迎使用RealHossie的Auto-GPT中文版！",  # Welcome to Auto-GPT!
+        "欢迎使用福利菌的Auto-GPT中文版！",  # Welcome to Auto-GPT!
         Fore.GREEN, # Green
         "执行后缀 '--help' 获取更多信息。",    # run with '--help' for more information.
         speak_text=True,
     )
 
     logger.typewriter_log(
-        "欢迎来到我的频道交流：https://www.youtube.com/@Hossie",
+        "欢迎来到我的公众号交流：张锡寒AI Generated Content！",
         Fore.LIGHTBLUE_EX,  # Light Blue
         speak_text=True,
     )
